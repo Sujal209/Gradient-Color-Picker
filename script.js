@@ -17,7 +17,7 @@ let hexVal = () => {
 
 let updateGradient = () => {
     bgColor=document.body.style.background = `linear-gradient(to right, ${btnVal1}, ${btnVal2})`;
-  colorPicker.innerHTML = `linear-gradient(to right, ${btnVal1}, ${btnVal2})`;
+  colorPicker.innerHTML = `background: linear-gradient(to right, ${btnVal1}, ${btnVal2})`;
   btn1.innerHTML = btnVal1;
   btn2.innerHTML = btnVal2;
 };
